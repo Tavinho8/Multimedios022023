@@ -5,35 +5,35 @@
         text-align: center;
       }
       .header {
-        background-color: green;
+        background-color: #fa6c17;
         width: 100%;
         float: left;
-        height: 50px;
+        height: 60px;
       }
       .footer {
-        background-color: cyan;
+        background-color: #fa6c17;
         width: 100%;
         float: left;
         height: 40px;
       }
       .main {
-        background-color: gray;
+        background-color: #879ab5;
         width: 100%;
         float: left;
         height: 300px;
       }
       .menu {
-        background-color: cyan;
+        background-color: #cccccc;
         width: 25%;
         float: left;
       }
       .dashboard {
-        background-color: chocolate;
+        background-color: #879ab5;
         width: 50%;
         float: left;
       }
       .rss {
-        background-color: blue;
+        background-color: #cccccc;
         width: 25%;
         float: left;
       }
