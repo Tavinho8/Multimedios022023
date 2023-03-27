@@ -5,19 +5,19 @@
         text-align: center;
       }
       .header {
-        background-color: #fa6c17;
+        background-color: #75aadb;
         width: 100%;
         float: left;
         height: 60px;
       }
       .footer {
-        background-color: #fa6c17;
+        background-color: #75aadb;
         width: 100%;
         float: left;
         height: 40px;
       }
       .main {
-        background-color: #879ab5;
+        background-color: #fcbf49;
         width: 100%;
         float: left;
         height: auto;
@@ -41,4 +41,6 @@
         position: absolute;
         width: auto;
       }
+
+    
     
