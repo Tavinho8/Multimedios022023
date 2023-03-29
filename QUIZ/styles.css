@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.footer{
+    background-color: #6571ac;
+    width: 100%;
+    float: left;
+    height: auto;
+    
+   
+}
+
+.main{
+    background-color: #0a0707;
+     width: 100%;
+    float: left;
+    height: auto;
+}
+
+.menu{
+    background-color: #6165c2;
+    width: 25%;
+    float: left;
+    height: auto;
+}
+.dashboard{
+background-color:rgb(186, 249, 253) ;
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.rss{
+    background-color: #6165c2;
+    width: 25%;
+    float: left;
+    height: auto;
+}
+
+.general{
+    position: absolute;
+    text-align: left;
+    width: auto;
+    background-color:rgb(177, 245, 239);
+
+
+}
+
+/* clases que se ocupan para hacer una card de productos */
+.img{
+    height: auto;
+    width: 85%;
+    opacity: 90%;
+}
+
+.tarjeta{
+    padding-top: 2%;
+    width: 25%;
+    height: auto;
+    float: left;
+    justify-content:space-between;
+    background-color: rgb(177, 245, 239);
+}
+
+
+.tarjetaBody{
+    width: auto;
+    height: auto;  
+    margin-left: 0;
+    
+}
+/* ----------------------------------------------------------- */
+
+
+
+.header{
+    background-color: #aa77c3;
+    width: 100%;
+    float: left;
+    height: 100px;
+   
+}
+
+  nav {
+    float: left;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  .lista {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+.itemsMenu {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .itemsMenu:hover {
+    background: gray;}
+
+.campeones{
+    margin: 1%; 
+    align-items: center;
+    color:#4d1414;  
+}
+.fraseCampeones{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
