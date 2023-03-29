@@ -2,7 +2,40 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+.header{
+    background-color: #aa77c3;
+    width: 100%;
+    float: left;
+    height: 100px;
+   
+}
+.icon{
+    height: 50%;
+    width: 6%;
+   opacity: 70%;
+   float: right;
+   margin: 15px;
+}
+  nav {
+    float: left;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  .lista {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+.itemsMenu {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .itemsMenu:hover {
+    background: gray;}
 
 
 .footer{
@@ -19,6 +52,13 @@
      width: 100%;
     float: left;
     height: auto;
+}
+.contenedorCampeones{
+    border-top-width: 3px;
+    border-bottom: 8px solid white;
+  border-top-style: solid;
+  border-top-color: black;
+  
 }
 
 .menu{
@@ -54,6 +94,8 @@ background-color:rgb(186, 249, 253) ;
     height: auto;
     width: 85%;
     opacity: 90%;
+   border-radius: 1%;
+   
 }
 
 .tarjeta{
@@ -63,6 +105,7 @@ background-color:rgb(186, 249, 253) ;
     float: left;
     justify-content:space-between;
     background-color: rgb(177, 245, 239);
+   
 }
 
 
@@ -76,34 +119,7 @@ background-color:rgb(186, 249, 253) ;
 
 
 
-.header{
-    background-color: #aa77c3;
-    width: 100%;
-    float: left;
-    height: 100px;
-   
-}
 
-  nav {
-    float: left;
-  }
-  nav ul {
-    list-style: none;
-    overflow: hidden; 
-  }
-  .lista {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
-}
-.itemsMenu {
-    display: block; 
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-  }
-  .itemsMenu:hover {
-    background: gray;}
 
 .campeones{
     margin: 1%; 
