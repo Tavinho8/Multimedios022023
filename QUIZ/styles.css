@@ -53,6 +53,12 @@
     float: left;
     height: auto;
 }
+.imgPrincipal{
+    height: auto;
+    width: 100%;
+    opacity: 90%;
+   border-radius: 1%;
+}
 .contenedorCampeones{
     border-top-width: 3px;
     border-bottom: 8px solid white;
@@ -72,6 +78,7 @@ background-color:rgb(186, 249, 253) ;
     width: 100%;
     float: left;
     height: auto;
+    padding-top: 4%;
 }
 .rss{
     background-color: #6165c2;
@@ -117,7 +124,9 @@ background-color:rgb(186, 249, 253) ;
 }
 /* ----------------------------------------------------------- */
 
-
+.img:hover{
+    transform: scale(0.90);
+}
 
 
 
@@ -127,7 +136,7 @@ background-color:rgb(186, 249, 253) ;
     color:#4d1414;  
 }
 .fraseCampeones{
-    font-size: 35px;
+    font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
