@@ -67,6 +67,11 @@
   
 }
 
+.contenedorLeyendas{
+  border-style: solid;
+  border-color: white;
+}
+
 .menu{
     background-color: #6165c2;
     width: 25%;
@@ -78,7 +83,7 @@ background-color:rgb(186, 249, 253) ;
     width: 100%;
     float: left;
     height: auto;
-    padding-top: 4%;
+    padding-top: 1%;
 }
 .rss{
     background-color: #6165c2;
@@ -102,7 +107,15 @@ background-color:rgb(186, 249, 253) ;
     width: 85%;
     opacity: 90%;
    border-radius: 1%;
-   
+
+}
+
+.imgLeyendas{
+    height: 250px;
+    width: 300px;
+    opacity: 90%;
+   border-radius: 1%;
+    margin-bottom: 13px;
 }
 
 .tarjeta{
@@ -116,12 +129,15 @@ background-color:rgb(186, 249, 253) ;
 }
 
 
+
 .tarjetaBody{
     width: auto;
     height: auto;  
     margin-left: 0;
-    
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 /* ----------------------------------------------------------- */
 
 .img:hover{
