@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+/*==================Menu====================*/
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/*==================Carousel de Img====================*/
+.carousel-inner{
+    max-height: 39rem !important;
+}
+
+/*==================Informacion empresa====================*/
+@media (max-width: 768px){
+    #intro{
+        width: 90% !important;
+    }
+}
